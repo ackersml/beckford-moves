@@ -1,4 +1,14 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+This is a [Next.js](https://nextjs.org) project for **Beckford Moves** (beckfordmoves.com). Standalone repo — no overlap with other projects.
+
+### Push to a new GitHub repo (handoff)
+
+1. Create a **new empty repository** on GitHub (e.g. `ackersml/beckford-moves` or `ackersml/sean-beckford-site`).
+2. From this directory:
+   ```bash
+   git remote add origin https://github.com/ackersml/YOUR-NEW-REPO-NAME.git
+   git push -u origin main
+   ```
+3. Use this repo as the **root** when connecting to a third-party CMS (Stackbit, Tina, etc.) or Vercel — no subfolder.
 
 ## Getting Started
 
