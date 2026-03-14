@@ -1,0 +1,38 @@
+{
+  "name": "sean-site",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "node scripts/proxy-feb19.js",
+    "dev:local": "(contentlayer build || true) && next dev",
+    "dev:feb19": "node scripts/proxy-feb19.js",
+    "build": "(contentlayer build || true) && next build",
+    "start": "next start",
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.98.0",
+    "@vercel/analytics": "^1.5.0",
+    "bcryptjs": "^3.0.3",
+    "contentlayer": "^0.3.4",
+    "gray-matter": "^4.0.3",
+    "next": "16.0.10",
+    "next-contentlayer": "^0.3.4",
+    "react": "19.2.0",
+    "react-dom": "19.2.0",
+    "rehype-slug": "^6.0.0",
+    "remark-gfm": "^4.0.1",
+    "resend": "^6.4.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/bcryptjs": "^2.4.6",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.0.10",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}
