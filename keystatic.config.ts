@@ -104,5 +104,62 @@ export default config({
         ),
       },
     },
+
+    successStories: {
+      label: 'Success Stories',
+      path: 'content/pages/success-stories',
+      schema: {
+        pageHeading: fields.text({ label: 'Page Heading' }),
+        pageIntro: fields.text({ label: 'Page Intro', multiline: true }),
+        featuredHeading: fields.text({ label: 'Featured Section Heading' }),
+        featuredDescription: fields.text({ label: 'Featured Section Description', multiline: true }),
+        testimonials: fields.array(
+          fields.object({
+            quote: fields.text({ label: 'Quote', multiline: true }),
+            name: fields.text({ label: 'Client Name' }),
+          }),
+          { label: 'Testimonials', itemLabel: (props) => props.fields.name.value }
+        ),
+      },
+    },
+
+    fst: {
+      label: 'RMT & FST',
+      path: 'content/pages/fst',
+      schema: {
+        pageHeading: fields.text({ label: 'Page Heading' }),
+        pageIntro: fields.text({ label: 'Page Intro', multiline: true }),
+        howItWorksHeading: fields.text({ label: 'How FST Works Heading' }),
+        howItWorksBody: fields.text({ label: 'How FST Works Body', multiline: true }),
+        benefitsHeading: fields.text({ label: 'Benefits Heading' }),
+        benefits: fields.array(fields.text({ label: 'Benefit' }), {
+          label: 'Benefits',
+          itemLabel: (props) => props.value,
+        }),
+        sessionHeading: fields.text({ label: 'What a Session Looks Like Heading' }),
+        sessionBody: fields.text({ label: 'What a Session Looks Like Body', multiline: true }),
+      },
+    },
+
+    blog: {
+      label: 'Blog',
+      path: 'content/pages/blog',
+      schema: {
+        pageHeading: fields.text({ label: 'Page Heading' }),
+        pageIntro: fields.text({ label: 'Page Intro', multiline: true }),
+        subscribeHeading: fields.text({ label: 'Subscribe Section Heading' }),
+      },
+    },
+
+    contact: {
+      label: 'Contact',
+      path: 'content/pages/contact',
+      schema: {
+        pageHeading: fields.text({ label: 'Page Heading (H1)' }),
+        pageSubheading: fields.text({ label: 'Page Subheading (H2)' }),
+        pageDescription: fields.text({ label: 'Page Description', multiline: true }),
+        submitButtonText: fields.text({ label: 'Submit Button Text' }),
+      },
+    },
   },
 })
