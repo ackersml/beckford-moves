@@ -5,9 +5,7 @@ const FEB19_DEPLOYMENT_URL =
   "https://beckford-site-napp8yiz2-michelle-ackers.vercel.app";
 
 const nextConfig: NextConfig = {
-  /* config options here */
-  // Silence Next.js 16 turbopack/webpack warning by explicitly enabling Turbopack
-  // and setting the root to this project directory.
+  transpilePackages: ['@keystatic/core', '@keystatic/next'],
   turbopack: {
     root: __dirname,
   },
