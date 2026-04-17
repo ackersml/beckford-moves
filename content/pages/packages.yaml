@@ -1,0 +1,45 @@
+pageHeading: Start Your Training Journey Today
+pageSubheading: Choose the level of support that matches your goals and schedule.
+packages:
+  - name: Level 1
+    title: 1 on 1 Personalized Assessment & Exercise Guide + Nutrition Guide
+    price: $299/month
+    priceNote: On a 3 month commitment
+    features:
+      - 1 virtual training session per month (1 hour)
+      - Virtual Movement Screening and Personalized Assessment with Sean
+      - Personalized program based on assessment
+      - Nutrition/Strength Training & Programming ebooks
+      - Detailed video demonstration of exercises for all programmed workouts
+      - Track your progress through the beckfordfitness app
+      - Unlimited email support
+  - name: Level 2
+    title: >-
+      1 on 1 Personalized Assessment, Exercise, Nutrition & Grocery Guides +
+      24/7 Support, Scheduling of Workouts
+    price: $429/month
+    priceNote: On a 3 month commitment
+    features:
+      - 2 virtual training sessions per month (1 hour per session)
+      - Virtual Movement Screening and Personalized Assessment with Sean
+      - Personalized program based on assessment
+      - Nutrition & Strength Training Programming ebooks
+      - Detailed video demonstration of exercises for all programmed workouts
+      - Track your progress through the beckfordfitness app and communicate with
+        Sean directly
+      - Customized worksheets designed ensure your success with coaching support
+      - Unlimited email support
+  - name: Level 3
+    title: Work Directly With Sean in Person or Online With or Without Equipment
+    price: $85-120/session
+    priceNote: Single session, 4, 8, 12 session packages available at different rates
+    features:
+      - Get coached by Sean directly virtually on FaceTime, Zoom, or Skype. (1
+        hour) or in person if you live in Downtown Toronto.
+      - All online programming features are included with package purchases of
+        1-on-1 Virtual Personal Training
+      - Track your progress through the beckfordfitness app and communicate with
+        Sean directly anytime through the app
+      - Be held accountable directly by Sean on a weekly Virtual Personal
+        Training schedule through a personalized program that ensures proper form
+        and technique throughout your workout
