@@ -1,0 +1,74 @@
+[
+  {
+    "src": "https://beckfordfitness.com/og.svg",
+    "page": "home",
+    "origin": "external",
+    "notes": ""
+  },
+  {
+    "src": "https://beckfordmoves.com/favicon.ico?favicon.0b3bf435.ico",
+    "page": "home",
+    "origin": "local",
+    "notes": ""
+  },
+  {
+    "src": "https://beckfordfitness.com/og.svg",
+    "page": "about",
+    "origin": "external",
+    "notes": ""
+  },
+  {
+    "src": "https://beckfordmoves.com/favicon.ico?favicon.0b3bf435.ico",
+    "page": "about",
+    "origin": "local",
+    "notes": ""
+  },
+  {
+    "src": "https://beckfordfitness.com/og.svg",
+    "page": "work",
+    "origin": "external",
+    "notes": ""
+  },
+  {
+    "src": "https://beckfordmoves.com/favicon.ico?favicon.0b3bf435.ico",
+    "page": "work",
+    "origin": "local",
+    "notes": ""
+  },
+  {
+    "src": "https://beckfordfitness.com/og.svg",
+    "page": "work-detail",
+    "origin": "external",
+    "notes": ""
+  },
+  {
+    "src": "https://beckfordmoves.com/favicon.ico?favicon.0b3bf435.ico",
+    "page": "work-detail",
+    "origin": "local",
+    "notes": ""
+  },
+  {
+    "src": "https://beckfordfitness.com/og.svg",
+    "page": "blog",
+    "origin": "external",
+    "notes": ""
+  },
+  {
+    "src": "https://beckfordmoves.com/favicon.ico?favicon.0b3bf435.ico",
+    "page": "blog",
+    "origin": "local",
+    "notes": ""
+  },
+  {
+    "src": "https://beckfordfitness.com/og.svg",
+    "page": "contact",
+    "origin": "external",
+    "notes": ""
+  },
+  {
+    "src": "https://beckfordmoves.com/favicon.ico?favicon.0b3bf435.ico",
+    "page": "contact",
+    "origin": "local",
+    "notes": ""
+  }
+]

@@ -1,0 +1,322 @@
+[
+  {
+    "type": "text",
+    "value": "BECKFORD MOVES",
+    "tag": "a",
+    "classes": "flex items-baseline gap-1 text-lg font-semibold tracking-tight",
+    "position_hint": "top",
+    "cms_key": "about_a_beckford_moves_1"
+  },
+  {
+    "type": "text",
+    "value": "BECKFORD",
+    "tag": "span",
+    "classes": "text-white",
+    "position_hint": "top",
+    "cms_key": "about_span_beckford_1"
+  },
+  {
+    "type": "text",
+    "value": "MOVES",
+    "tag": "span",
+    "classes": "text-[var(--accent)]",
+    "position_hint": "top",
+    "cms_key": "about_span_moves_1"
+  },
+  {
+    "type": "text",
+    "value": "Home",
+    "tag": "a",
+    "classes": "rounded-md px-3 py-2 transition-colors text-zinc-300 hover:bg-zinc-800 hover:text-white",
+    "position_hint": "top",
+    "cms_key": "about_a_home_1"
+  },
+  {
+    "type": "text",
+    "value": "How It Works",
+    "tag": "a",
+    "classes": "rounded-md px-3 py-2 transition-colors text-zinc-300 hover:bg-zinc-800 hover:text-white",
+    "position_hint": "top",
+    "cms_key": "about_a_how_it_works_1"
+  },
+  {
+    "type": "text",
+    "value": "About",
+    "tag": "a",
+    "classes": "rounded-md px-3 py-2 transition-colors bg-[var(--accent)] font-medium text-white",
+    "position_hint": "top",
+    "cms_key": "about_a_about_1"
+  },
+  {
+    "type": "text",
+    "value": "Packages",
+    "tag": "a",
+    "classes": "rounded-md px-3 py-2 transition-colors text-zinc-300 hover:bg-zinc-800 hover:text-white",
+    "position_hint": "top",
+    "cms_key": "about_a_packages_1"
+  },
+  {
+    "type": "text",
+    "value": "Success Stories",
+    "tag": "a",
+    "classes": "rounded-md px-3 py-2 transition-colors text-zinc-300 hover:bg-zinc-800 hover:text-white",
+    "position_hint": "top",
+    "cms_key": "about_a_success_stories_1"
+  },
+  {
+    "type": "text",
+    "value": "RMT & FST",
+    "tag": "a",
+    "classes": "rounded-md px-3 py-2 transition-colors text-zinc-300 hover:bg-zinc-800 hover:text-white",
+    "position_hint": "top",
+    "cms_key": "about_a_rmt_fst_1"
+  },
+  {
+    "type": "text",
+    "value": "Blog",
+    "tag": "a",
+    "classes": "rounded-md px-3 py-2 transition-colors text-zinc-300 hover:bg-zinc-800 hover:text-white",
+    "position_hint": "top",
+    "cms_key": "about_a_blog_1"
+  },
+  {
+    "type": "text",
+    "value": "Contact",
+    "tag": "a",
+    "classes": "rounded-md px-3 py-2 transition-colors text-zinc-300 hover:bg-zinc-800 hover:text-white",
+    "position_hint": "top",
+    "cms_key": "about_a_contact_1"
+  },
+  {
+    "type": "text",
+    "value": "Free Consultation",
+    "tag": "a",
+    "classes": "rounded-md bg-[var(--accent)] px-4 py-2 text-sm font-medium text-white transition-opacity hover:opacity-90",
+    "position_hint": "top",
+    "cms_key": "about_a_free_consultation_1"
+  },
+  {
+    "type": "text",
+    "value": "Get to Know Your Coach",
+    "tag": "h1",
+    "classes": "text-4xl font-bold mb-4",
+    "position_hint": "top",
+    "cms_key": "about_h1_get_to_know_your_coach_1"
+  },
+  {
+    "type": "text",
+    "value": "My Story",
+    "tag": "h2",
+    "classes": "text-3xl font-semibold mb-6",
+    "position_hint": "top",
+    "cms_key": "about_h2_my_story_1"
+  },
+  {
+    "type": "text",
+    "value": "Hi! I'm Sean",
+    "tag": "h3",
+    "classes": "text-2xl font-semibold mb-4",
+    "position_hint": "top",
+    "cms_key": "about_h3_hi_i_m_sean_1"
+  },
+  {
+    "type": "text",
+    "value": "I've been a Fitness Trainer for 11 years and I've been fortunate to learn from the best at some of the top fitness gyms in North America throughout my career. My journey in fitness began with a passion for helping people transform not just their bodies, but their entire approach to health and wellness.",
+    "tag": "p",
+    "classes": "mb-4",
+    "position_hint": "top",
+    "cms_key": "about_p_i_ve_been_a_fitness_trainer_for_1"
+  },
+  {
+    "type": "text",
+    "value": "I put everything I have into ensuring my clients improve their bodies and lives. My commitment to continuing education throughout my fitness journey has helped me deliver a great service to my clients through functional movement, nutrition and recovery methods. I believe that true transformation happens when we address the whole person—mind, body, and spirit. That's why my approach goes beyond traditional personal training to include life coaching, nutrition guidance, and holistic wellness practices.",
+    "tag": "p",
+    "classes": "mb-4",
+    "position_hint": "top",
+    "cms_key": "about_p_i_put_everything_i_have_into_1"
+  },
+  {
+    "type": "text",
+    "value": "What sets my practice apart is the personalized attention I give to each client. Every program is tailored specifically to your goals, circumstances, and preferences. Whether you're training for a specific event, recovering from an injury, or simply looking to improve your overall quality of life, I work with you to create a sustainable path forward.",
+    "tag": "p",
+    "classes": "mb-4",
+    "position_hint": "top",
+    "cms_key": "about_p_what_sets_my_practice_apart_is_1"
+  },
+  {
+    "type": "text",
+    "value": "My training philosophy centers on functional movement, proper form, and evidence-based methods. I combine strength training, mobility work, and recovery techniques to help you move better, feel stronger, and live more fully. Through my iOS and Android app, powered by Trainerize, you'll have access to your programming, video demonstrations, and direct communication with me 24/7.",
+    "tag": "p",
+    "classes": "mb-4",
+    "position_hint": "middle",
+    "cms_key": "about_p_my_training_philosophy_centers_on_functional_1"
+  },
+  {
+    "type": "text",
+    "value": "I'm looking forward to supporting you in your fitness journey. Whether you're just starting out or you're an experienced athlete looking to break through plateaus, I'm here to guide you every step of the way. Together, we'll build strength, improve mobility, and create lasting habits for long-term health and wellness.",
+    "tag": "p",
+    "classes": "mb-8",
+    "position_hint": "middle",
+    "cms_key": "about_p_i_m_looking_forward_to_supporting_you_1"
+  },
+  {
+    "type": "text",
+    "value": "My current certifications include:",
+    "tag": "h3",
+    "classes": "text-2xl font-semibold mb-4",
+    "position_hint": "middle",
+    "cms_key": "about_h3_my_current_certifications_include_1"
+  },
+  {
+    "type": "text",
+    "value": "• (NSCA) Certified Strength and Conditioning Specialist – National Strength and Conditioning Association",
+    "tag": "li",
+    "classes": "",
+    "position_hint": "middle",
+    "cms_key": "about_li_nsca_certified_strength_and_conditioning_1"
+  },
+  {
+    "type": "text",
+    "value": "• Registered Massage Therapist (In Training)",
+    "tag": "li",
+    "classes": "",
+    "position_hint": "middle",
+    "cms_key": "about_li_registered_massage_therapist_in_training_1"
+  },
+  {
+    "type": "text",
+    "value": "• Fascial Stretch Therapist (Level 2)",
+    "tag": "li",
+    "classes": "",
+    "position_hint": "middle",
+    "cms_key": "about_li_fascial_stretch_therapist_level_2_1"
+  },
+  {
+    "type": "text",
+    "value": "• Registered Yoga Teacher (Yoga Alliance Certified)",
+    "tag": "li",
+    "classes": "",
+    "position_hint": "middle",
+    "cms_key": "about_li_registered_yoga_teacher_yoga_alliance_1"
+  },
+  {
+    "type": "text",
+    "value": "• Precision Nutrition Level 1 & 2 Coach",
+    "tag": "li",
+    "classes": "",
+    "position_hint": "bottom",
+    "cms_key": "about_li_precision_nutrition_level_1_1"
+  },
+  {
+    "type": "text",
+    "value": "• Certified Pre and Post Natal Coach (CPPC) – Girls' Gone Strong",
+    "tag": "li",
+    "classes": "",
+    "position_hint": "bottom",
+    "cms_key": "about_li_certified_pre_and_post_natal_1"
+  },
+  {
+    "type": "text",
+    "value": "• TRX Coach",
+    "tag": "li",
+    "classes": "",
+    "position_hint": "bottom",
+    "cms_key": "about_li_trx_coach_1"
+  },
+  {
+    "type": "text",
+    "value": "• FMT Rocktape Level 1 (Kinesology Taping – KT)",
+    "tag": "li",
+    "classes": "",
+    "position_hint": "bottom",
+    "cms_key": "about_li_fmt_rocktape_level_1_kinesology_1"
+  },
+  {
+    "type": "text",
+    "value": "• Agatsu Speed & Strength Specialist",
+    "tag": "li",
+    "classes": "",
+    "position_hint": "bottom",
+    "cms_key": "about_li_agatsu_speed_strength_specialist_1"
+  },
+  {
+    "type": "text",
+    "value": "These certifications reflect my dedication to staying current with the latest research and techniques in fitness, nutrition, and recovery. I'm committed to providing you with the highest quality coaching and support as you work toward your goals.",
+    "tag": "p",
+    "classes": "mb-8",
+    "position_hint": "bottom",
+    "cms_key": "about_p_these_certifications_reflect_my_dedication_to_1"
+  },
+  {
+    "type": "text",
+    "value": "Schedule a Free ConsultationView Packages",
+    "tag": "p",
+    "classes": "not-prose",
+    "position_hint": "bottom",
+    "cms_key": "about_p_schedule_a_free_consultationview_packages_1"
+  },
+  {
+    "type": "text",
+    "value": "Schedule a Free Consultation",
+    "tag": "a",
+    "classes": "inline-block rounded-md bg-black px-6 py-3 text-white hover:opacity-90 dark:bg-white dark:text-black mr-4",
+    "position_hint": "bottom",
+    "cms_key": "about_a_schedule_a_free_consultation_1"
+  },
+  {
+    "type": "text",
+    "value": "View Packages",
+    "tag": "a",
+    "classes": "inline-block rounded-md border border-zinc-300 px-6 py-3 hover:bg-zinc-100 dark:border-zinc-700 dark:hover:bg-zinc-900",
+    "position_hint": "bottom",
+    "cms_key": "about_a_view_packages_1"
+  },
+  {
+    "type": "text",
+    "value": "© 2026 Beckford Fitness",
+    "tag": "p",
+    "classes": "",
+    "position_hint": "bottom",
+    "cms_key": "about_p_2026_beckford_fitness_1"
+  },
+  {
+    "type": "text",
+    "value": "PrivacyTerms",
+    "tag": "p",
+    "classes": "space-x-4",
+    "position_hint": "bottom",
+    "cms_key": "about_p_privacyterms_1"
+  },
+  {
+    "type": "text",
+    "value": "Privacy",
+    "tag": "a",
+    "classes": "hover:underline",
+    "position_hint": "bottom",
+    "cms_key": "about_a_privacy_1"
+  },
+  {
+    "type": "text",
+    "value": "Terms",
+    "tag": "a",
+    "classes": "hover:underline",
+    "position_hint": "bottom",
+    "cms_key": "about_a_terms_1"
+  },
+  {
+    "type": "image",
+    "value": "https://beckfordfitness.com/og.svg",
+    "tag": "meta",
+    "classes": "property=\"og:image\"",
+    "position_hint": "top",
+    "cms_key": "about_meta_og_image_1"
+  },
+  {
+    "type": "image",
+    "value": "https://beckfordmoves.com/favicon.ico?favicon.0b3bf435.ico",
+    "tag": "link",
+    "classes": "rel=\"icon\"",
+    "position_hint": "top",
+    "cms_key": "about_link_icon_1"
+  }
+]

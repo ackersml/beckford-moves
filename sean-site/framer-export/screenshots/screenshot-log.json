@@ -1,0 +1,50 @@
+[
+  {
+    "page": "home",
+    "url": "https://beckfordmoves.com/",
+    "http_status": 200,
+    "timestamp": "2026-04-06T09:00:41.000Z",
+    "file_path": "sean-site/framer-export/screenshots/home.png",
+    "notes": null
+  },
+  {
+    "page": "about",
+    "url": "https://beckfordmoves.com/about",
+    "http_status": 200,
+    "timestamp": "2026-04-06T09:01:23.554Z",
+    "file_path": "sean-site/framer-export/screenshots/about.png",
+    "notes": null
+  },
+  {
+    "page": "work",
+    "url": "https://beckfordmoves.com/work",
+    "http_status": 200,
+    "timestamp": "2026-04-06T09:01:25.933Z",
+    "file_path": "sean-site/framer-export/screenshots/work.png",
+    "notes": null
+  },
+  {
+    "page": "contact",
+    "url": "https://beckfordmoves.com/contact",
+    "http_status": 200,
+    "timestamp": "2026-04-06T09:01:28.143Z",
+    "file_path": "sean-site/framer-export/screenshots/contact.png",
+    "notes": null
+  },
+  {
+    "page": "blog",
+    "url": "https://beckfordmoves.com/blog",
+    "http_status": 200,
+    "timestamp": "2026-04-06T09:01:30.307Z",
+    "file_path": "sean-site/framer-export/screenshots/blog.png",
+    "notes": null
+  },
+  {
+    "page": "work-detail",
+    "url": "https://beckfordmoves.com/work/first-project",
+    "http_status": 404,
+    "timestamp": "2026-04-06T09:01:33.019Z",
+    "file_path": "sean-site/framer-export/screenshots/work-detail.png",
+    "notes": null
+  }
+]
