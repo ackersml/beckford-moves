@@ -5,7 +5,33 @@ import config from "../../../../keystatic.config";
 const reader = createReader(process.cwd(), config);
 
 export async function GET() {
-  const homepage = await reader.singletons.homepage.read();
-  const about = await reader.singletons.about.read();
-  return NextResponse.json({ homepage, about });
+  const [
+    homepage,
+    about,
+    howItWorks,
+    packages,
+    successStories,
+    fstMassageTherapy,
+    blog,
+    contact,
+  ] = await Promise.all([
+    reader.singletons.homepage.read(),
+    reader.singletons.about.read(),
+    reader.singletons.howItWorks.read(),
+    reader.singletons.packages.read(),
+    reader.singletons.successStories.read(),
+    reader.singletons.fstMassageTherapy.read(),
+    reader.singletons.blog.read(),
+    reader.singletons.contact.read(),
+  ]);
+  return NextResponse.json({
+    homepage,
+    about,
+    howItWorks,
+    packages,
+    successStories,
+    fstMassageTherapy,
+    blog,
+    contact,
+  });
 }

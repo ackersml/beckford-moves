@@ -1,3 +1,0 @@
-https://www.figma.com/design/TQyxcrWtvMPkSr86XTIlcE
-
-Last automation attempt: Figma MCP use_figma hit Starter plan tool-call rate limit before all 12 payloads ran. Re-run payload-ref-*.json then payload-content-*.json from sean-site/framer-export/deliverables/ when quota resets or plan allows.

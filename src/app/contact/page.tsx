@@ -1,11 +1,39 @@
 'use client'
 
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import { motion } from 'framer-motion'
 import { MapPin, Instagram, Mail, Phone, Clock, CheckCircle2 } from 'lucide-react'
 import Link from 'next/link'
+import {
+  marketingHeroDefaults,
+  type MarketingPageHero,
+} from '@/lib/marketing-page-hero'
 
 export default function ContactPage() {
+  const [hero, setHero] = useState<MarketingPageHero>(
+    marketingHeroDefaults.contact
+  )
+
+  useEffect(() => {
+    let isMounted = true
+    async function loadContent() {
+      try {
+        const response = await fetch('/api/site-content', { cache: 'no-store' })
+        if (!response.ok) return
+        const payload = await response.json()
+        if (isMounted && payload?.contact) {
+          setHero({ ...marketingHeroDefaults.contact, ...payload.contact })
+        }
+      } catch {
+        // Keep defaults when content API is unavailable.
+      }
+    }
+    loadContent()
+    return () => {
+      isMounted = false
+    }
+  }, [])
+
   const [formState, setFormState] = useState<'idle' | 'submitting' | 'success' | 'error'>('idle')
   const [formData, setFormData] = useState({
     firstName: '',
@@ -57,13 +85,14 @@ export default function ContactPage() {
             className="text-center mb-16"
           >
             <span className="inline-block px-4 py-2 bg-accent/10 border border-accent/20 rounded-full text-accent text-sm font-medium mb-6">
-              Let&apos;s Connect
+              {hero.heroKicker}
             </span>
             <h1 className="font-display text-5xl md:text-6xl lg:text-7xl tracking-tight mb-6">
-              GET IN <span className="gradient-text">TOUCH</span>
+              {hero.heroHeadingLine1}{' '}
+              <span className="gradient-text">{hero.heroHeadingLine2}</span>
             </h1>
             <p className="text-xl text-white/60 max-w-2xl mx-auto">
-              Ready to start your transformation? Book a free consultation or reach out with any questions.
+              {hero.heroSubheading}
             </p>
           </motion.div>
         </div>
